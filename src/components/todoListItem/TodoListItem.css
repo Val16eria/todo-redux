@@ -1,0 +1,13 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.todo-description {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: inherit;
+}
