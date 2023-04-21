@@ -22,7 +22,7 @@
     padding: 5px;
 }
 
-.todo-links a:active {
+.todo-links a:hover {
     background-color: blue;
     color: white;
 
