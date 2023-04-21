@@ -3,27 +3,11 @@
     flex-direction: column;
     gap: 30px;
 
+    margin: 50px auto;
     align-items: center;
 }
 
 .todo-container h1 {
     padding: 0;
     margin: 0;
-}
-
-.todo-links {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.todo-links a {
-    border: 1px solid gray;
-    padding: 5px;
-}
-
-.todo-links a:hover {
-    background-color: blue;
-    color: white;
-
 }

@@ -4,7 +4,7 @@ import { useTypeSelector } from '../../hooks/useTypeSelector';
 import { useAction } from '../../hooks/useAction';
 
 import TodoListItem from '../todoListItem';
-import TodoFilter from '../todoFilter/TodoFilter';
+import TodoFilter from '../todoFilter';
 
 import './TodoList.css';
 
@@ -25,6 +25,7 @@ const TodoList: FC = () => {
 
     return (
         <div className='todo-container'>
+            <h1>Tasks List</h1>
             <TodoFilter />
             <TodoListItem />
       </div>

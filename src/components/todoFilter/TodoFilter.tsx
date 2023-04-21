@@ -1,15 +1,13 @@
 import React, { FC } from 'react';
-import { useTypeSelector } from '../../hooks/useTypeSelector';
-import {setFilter} from "../../store/action-creators";
-import {VisibilityFilterType} from "../../types/todo";
-import {useDispatch} from "react-redux";
+import { useDispatch } from 'react-redux';
 
+import { setFilter } from '../../store/action-creators';
+import { VisibilityFilterType } from '../../types/todo';
 
+import './TodoFilter.css';
 
 const TodoFilter:FC = () => {
 
-    const filter = useTypeSelector(state => state.filter);
-    console.log('filter', filter)
     const dispatch = useDispatch();
 
     const handleClick = (filter: VisibilityFilterType) => {
