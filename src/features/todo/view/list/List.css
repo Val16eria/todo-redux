@@ -1,0 +1,25 @@
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.todo-container h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.list-loading {
+    display: block;
+    margin: 250px auto;
+}
