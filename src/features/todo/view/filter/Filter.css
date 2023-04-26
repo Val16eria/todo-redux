@@ -11,7 +11,7 @@
     border-radius: 4px;
 }
 
-.todo-links a:hover {
+.todo-links a:focus {
     background-color: #86C3FC;
     color: white;
 }
